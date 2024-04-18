@@ -145,21 +145,6 @@ typedef void *vptr;
 #define VPTR_TYPEDEF
 #endif 
 
-// useful define
-
-#ifndef PI
-/** The pi constant.				@ingroup msp	*/
-#define PI 3.14159265358979323846
-#endif
-#ifndef TWOPI
-/** Twice the pi constant.			@ingroup msp	*/
-#define TWOPI		6.28318530717958647692
-#endif  // TWOPI
-#ifndef PIOVERTWO
-/** Half of the pi constant.		@ingroup msp	*/
-#define PIOVERTWO	1.57079632679489661923
-#endif  // PIOVERTWO
-
 // system access prototypes
 
 BEGIN_USING_C_LINKAGE 

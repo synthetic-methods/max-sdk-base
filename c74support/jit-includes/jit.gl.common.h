@@ -25,10 +25,6 @@ extern "C" {
 	
 #define		JIT_GL_MAX_TEXTUREUNITS	32
 	
-#ifndef PI
-#define		PI	3.141592653589793
-#endif
-	
 // layer defines
 enum t_jit_gl_layer {
 	JIT_GL_LAYER_FIRST		= -1000,
